@@ -1,0 +1,58 @@
+A: Szabó Zétény
+B: Farkas Gábor
+
+A: git init
+B: git init
+A: git remote add origin https://github.com/szabozetenyckik/dolgozat.git
+B: git remote add origin https://github.com/szabozetenyckik/dolgozat.git
+A: git add .
+A: git commit -m "A1"
+A: git push origin master
+B: git fetch
+B: git pull origin master
+B: git commit -am "2"
+B: git push origin master
+A: git fetch
+A: git pull origin master
+A: git branch f
+A: git checkout f
+A: git add .
+A: git commit -m "A3"
+A: git push origin f
+B: git fetch
+B: git branch f
+B: git checkout f
+B: git fetch 
+B: git pull origin f
+B: git checkout master
+B: git add .
+B: git commit -m "4"
+B: git push origin master
+A: git checkout master
+A: git fetch
+A: git pull origin master
+B: git checkout f
+B: git add .
+B: git commit -m "5"
+B: git push origin f
+B: git checkout master
+A: git checkout f
+A: git fetch
+A: git pull origin f
+A: git checkout master
+A: git add .
+A: git commit -m "A6"
+A: git push origin master
+B: git fetch
+B: git pull origin master
+B: git merge f
+B: git add . 
+B: git commit -m "7"
+B: git push origin master
+A: git fetch
+A: git pull origin master
+A: git add .
+A: git commit -m "8"
+A: git push origin master
+B: git fetch
+B: git pull origin master
